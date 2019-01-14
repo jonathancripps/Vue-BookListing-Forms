@@ -8,8 +8,8 @@
       </label>
     </div>
     <div>
-      <label for="barrowed">Barrowed
-        <input type="radio" v-model="bookData.ownership" value="barrowed">
+      <label for="borrowed">Borrowed
+        <input type="radio" v-model="bookData.ownership" value="borrowed">
       </label>
       <label for="bought">Bought
         <input type="radio" v-model="bookData.ownershio" value="bought">
